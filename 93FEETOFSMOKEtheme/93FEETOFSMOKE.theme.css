@@ -1,0 +1,102 @@
+/**
+* @name 93FEETOFSMOKE
+* @author aki#0093
+* @version 1.0
+* @description Just A 93FEETOFSMOKE theme Goofy
+*/
+@import url(https://akiariia.github.io/scsl.css);
+
+
+:root {
+    /*
+    Change the theme background
+    */
+    --background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1027324712403931677/73E9B18AD2D96B2DBDFF5FCDE424C7BE65B69323/);
+
+    /*
+    Change your friends icon image
+    */
+    --friends-icon: url(https://cdn.shopify.com/s/files/1/0076/9556/4867/files/93PROF1_1200x1200.jpeg?v=1556176340);
+
+    /*
+    Change your friends icon iamge position
+    Default: center center
+    */
+    --friends-icon-position: center center;
+
+    /*
+    Change your friends icon image zoom
+    Default: 100% 
+    */
+    --friends-icon-zoom: 100%;
+
+    /*
+    Change the main theme color
+    Default: rgb(67, 181, 129)
+    */
+    --main-color: rgb(67, 181, 129);
+
+    /*
+    Change global transparency
+    You can use this to make your background image lighter or darker
+    Default: rgba(0, 0, 0, 0.8)
+    */
+    --main-transparency: rgba(0, 0, 0, 0.8);
+
+    /*
+    Change the unread server animation.
+    Replace it with "none" in order to remove any animations and use the main color instead
+    Default: rainbow
+    */
+    --unread-server-animation: rainbow;
+
+    /*
+    Change background color when you hover members or friends
+    Default: rgba(255, 255, 255, .15)
+    */
+    --hover-list-bg-color: rgba(255, 255, 255, .15);
+
+    /*
+    Change the color of the borders between messages
+    Default: hsla(0,0%,100%,.1)
+    */
+    --border-lines-color: hsla(0,0%,100%,.1);
+
+    /*
+    Change the scroll bar color
+    Default: rgba(255,255,255, .15)
+    */
+    --scroll-bar-color: rgba(255,255,255, .15);
+
+    /*
+    Change chat messages font size, you can use any unit: px, em, rem, %
+    Default: 16px
+    */
+    --font-size: 16px;
+
+    /*
+    Change the text color of a selected text channel or joined voice channel
+    Default: #f6f6f7
+    */
+    --selected-text-voice-color: #f6f6f7;
+
+    /*
+    Change the text color of a hovered text or voice channel
+    Default: rgba(255, 255, 255, 0.75)
+    */
+    --channel-hover-text-color: rgba(255, 255, 255, 0.75);
+
+
+    /*
+    Change the text color of an unread text channel
+    Default: #dcddde
+    */
+    --unread-text-color: #dcddde;
+
+
+    /*
+    Change the transparency of the user popout when clicking a member
+    Default: rgba(0, 0, 0, 0.8)
+    */
+    --user-popup-background: rgba(0, 0, 0, 0.8);
+}
